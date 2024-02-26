@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "projectName": "Molecule SVG Parser",
+            "languages": "C, Python, JavaScript, SQLite, HTML/CSS",
+            "description": "A full-stack application that can upload, convert, and view CIF files as SVG images. Molecule images can be rotated on the webpage and there is a small database inside the application that can store the molecules, elements, bonds, and atoms.",
+            "github": "https://github.com/oliviabiancucci/"
+        },
+        {
+            "projectName": "UDP Messenger",
+            "languages": "C",
+            "description": "A sender and receiver capable of sending and receiving messages over unconnected UDP.",
+            "github": "https://github.com/oliviabiancucci/UDP-Messenger"
+        },
+        {
+            "projectName": "TextHub Webscraper",
+            "languages": "Python, JavaScript, HTML/CSS",
+            "description": "A text-based website that runs on a Flask server and scrapes and displays content from other sites at the user’s selection.",
+            "github": "https://github.com/oliviabiancucci/"
+        },
+        {
+            "projectName": "Virtual Machines on the Cloud",
+            "languages": "Python",
+            "description": "A script that automates the creation and deployment of virtual machines on Azure and GCP using inputted configuration files and CLI.",
+            "github": "https://github.com/oliviabiancucci/"
+        },
+        {
+            "projectName": "Credit Card Database",
+            "languages": "PostgreSQL",
+            "description": "A database for a small credit card company.",
+            "github": "https://github.com/oliviabiancucci/Credit-Card-Database"
+        },
+        {
+            "projectName": "Unix Shell",
+            "languages": "C",
+            "description": "A simulation of a Unix shell that supports multiple commands.",
+            "github": "https://github.com/oliviabiancucci/Unix-Shell"
+        },
+        {
+            "projectName": "Image Scraper",
+            "languages": "Python",
+            "description": "A small program to download images from any URL.",
+            "github": "https://github.com/oliviabiancucci/Image-Scraper"
+        }
+    ]
+}
