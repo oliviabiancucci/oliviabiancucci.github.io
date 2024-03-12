@@ -74,16 +74,6 @@ body {
     position: relative
 }
 
-li {
-    border: 2px solid grey;
-    padding: 40px;
-    border-radius: 10%;
-}
-
-.courseDescription {
-    display: none;
-}
-
 .display-heading-2 {
     color: #fff;
     letter-spacing: 0;
@@ -431,6 +421,7 @@ strong {
     line-height: 28px
 }
 
+
 .text-span-11 {
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(90deg, #4584b6, #ffde57);
@@ -499,4 +490,27 @@ strong {
     color: #fff;
     float: right;
     position: relative
+}
+
+
+/* courses.html */
+
+.courseTitle {
+    letter-spacing: 0;
+    color: #ffffffad;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 20px;
+}
+
+.courseDescription {
+    display: none;
+}
+
+li {
+    border: 2px solid grey;
+    padding: 40px;
+    border-radius: 30%;
 }
