@@ -24,7 +24,6 @@ body {
     line-height: 20px;
 }
 
-
 .button-circle-small-icon {
     width: 16px;
     height: 16px
@@ -75,9 +74,14 @@ body {
     position: relative
 }
 
+li {
+    border: 2px solid grey;
+    padding: 40px;
+    border-radius: 10%;
+}
+
 .courseDescription {
     display: none;
-    background-color: #0c0c36b2;
 }
 
 .display-heading-2 {
@@ -212,18 +216,6 @@ h6 {
 
 p {
     margin-bottom: 24px
-}
-
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 40px
-}
-
-ol {
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding-left: 40px
 }
 
 .hero-1-grid {
