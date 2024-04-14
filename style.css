@@ -52,7 +52,24 @@ body {
     height: 20px
 }
 
-.button-large:hover {
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clickHereButton {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #3898ec;
+    border: 0;
+    border-radius: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block
+}
+
+.clickHereButton:hover {
     box-shadow: inset 0 0 20px 20px rgba(0, 0, 0, .1)
 }
 
@@ -72,6 +89,45 @@ body {
     padding-left: 2vw;
     padding-right: 2vw;
     position: relative
+}
+
+li {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffffffad;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.courseText {
+    letter-spacing: 0;
+    color: #ffffffad;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.courseDescription {
+    display: none;
+}
+
+.courseContainer {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.courseText li {
+    max-width: 600px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    align-items: center;
+    text-align: center;
 }
 
 .display-heading-2 {
@@ -98,7 +154,8 @@ body {
 .display-inline {
     font-size: 24px;
     font-weight: 500;
-    display: inline
+    display: inline;
+    white-space: nowrap;
 }
 
 .display-inline.text-gray-4 {
@@ -116,6 +173,7 @@ body {
 }
 
 .div-block {
+    justify-content: flex-end;
     align-self: auto;
     align-items: center;
     display: flex
@@ -141,8 +199,9 @@ body {
 h1 {
     color: #fff;
     letter-spacing: -.02em;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 24px;
+    padding-right: 20px;
     font-family: Inter, sans-serif;
     font-size: 45px;
     font-weight: 600;
@@ -154,10 +213,11 @@ h2 {
     letter-spacing: -.02em;
     margin-top: 0;
     margin-bottom: 24px;
+    padding: 20px;
     font-family: Inter, sans-serif;
     font-size: 32px;
     font-weight: 600;
-    line-height: 40px
+    line-height: 40px;
 }
 
 h3 {
@@ -236,16 +296,22 @@ p {
 .hero-content {
     direction: ltr;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    display: flex
+    display: flex;
+    justify-content: space-between
 }
 
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: sans-serif
+}
+
+.icon-link {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
 }
 
 .image-6 {
@@ -296,7 +362,6 @@ img {
 
 .navbar-row {
     color: #fff;
-    justify-content: space-between;
     align-items: center;
     margin-top: 0;
     font-size: 15px;
@@ -370,7 +435,7 @@ img {
 }
 
 .nav-menu {
-    align-items: center;
+    align-items: left;
     padding-top: 3px;
     padding-bottom: 0;
     display: flex
@@ -400,6 +465,10 @@ img {
     background-color: #0c0c3600;
 }
 
+.space-bottom {
+    margin-bottom: 24px
+}
+
 .space-left {
     margin-left: 24px
 }
@@ -412,33 +481,25 @@ strong {
     font-weight: 700
 }
 
+.tab {
+    margin-left: 25px;
+}
+
 .text-lead {
     letter-spacing: 0;
     color: #ffffffad;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 28px
+    line-height: 28px;
+    white-space: nowrap
 }
-
 
 .text-span-11 {
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(90deg, #4584b6, #ffde57);
     -webkit-background-clip: text;
     background-clip: text
-}
-
-.w-button {
-    color: #fff;
-    line-height: inherit;
-    cursor: pointer;
-    background-color: #3898ec;
-    border: 0;
-    border-radius: 0;
-    padding: 9px 15px;
-    text-decoration: none;
-    display: inline-block
 }
 
 .w-container {
@@ -490,27 +551,4 @@ strong {
     color: #fff;
     float: right;
     position: relative
-}
-
-
-/* courses.html */
-
-.courseTitle {
-    letter-spacing: 0;
-    color: #ffffffad;
-    font-family: Inter, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    padding: 20px;
-}
-
-.courseDescription {
-    display: none;
-}
-
-li {
-    border: 2px solid grey;
-    padding: 40px;
-    border-radius: 30%;
 }
