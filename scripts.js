@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             const projects = data.projects;
-            const projectsContainer = document.querySelector('.grid-thirds'); // Assuming .grid-thirds is the container for the grid
+            const projectsContainer = document.querySelector('.list');
+            console.log('hello');
 
             projects.forEach(project => {
                 const panel = document.createElement('div');
