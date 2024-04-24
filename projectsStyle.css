@@ -1,15 +1,3 @@
-.main {
-	width: 100%;
-    max-width: 1280px;
-    perspective: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    position: relative
-}
-
 .githubLink {
 	letter-spacing: 0;
     color: #fff;

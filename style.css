@@ -52,11 +52,6 @@ body {
     height: 20px
 }
 
-.center {
-    margin: 0 auto;
-    text-align: center;
-}
-
 .clickHereButton {
     color: #fff;
     line-height: inherit;
@@ -177,6 +172,12 @@ ul {
     align-self: auto;
     align-items: center;
     display: flex
+}
+
+.experience-image {
+    width: 50%; 
+    height: auto;
+    max-width: 50%;
 }
 
 .grid-thirds {
@@ -336,6 +337,7 @@ img {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
 }
 
 .main-text-gradient {
@@ -395,8 +397,8 @@ img {
     border-radius: 12px;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    display: flex
+    display: flex;
+    position: relative;
 }
 
 .panel-body {
@@ -410,7 +412,7 @@ img {
     margin-right: auto;
     padding: 36px;
     display: flex;
-    position: relative
+    position: relative;
 }
 
 .panel-subheading {
