@@ -324,13 +324,18 @@ img {
     align-items: center;
     margin-top: 0;
     font-size: 15px;
-    display: flex
+    display: flex;
 }
 
 .navbar-wrapper {
     z-index: 5;
     position: relative
 }
+
+.navbar-right {
+    margin-left: auto;
+}
+
 
 .panel {
     background-color: rgba(255, 255, 255, .05);
