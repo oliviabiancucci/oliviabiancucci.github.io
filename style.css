@@ -336,23 +336,11 @@ img {
     margin-left: auto;
 }
 
-
 .panel {
     background-color: rgba(255, 255, 255, .05);
     border-radius: 12px;
-}
-
-.panel-body {
-    z-index: 1;
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    padding: 36px;
-    display: flex;
-}
-
-.panel-subheading {
-    margin-bottom: 24px
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .w-nav-button {
@@ -431,6 +419,10 @@ strong {
     font-weight: 500;
     line-height: 28px;
     white-space: nowrap
+}
+
+.text-section {
+    margin-bottom: 10px;
 }
 
 .text-span-11 {
