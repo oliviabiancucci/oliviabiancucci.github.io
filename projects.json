@@ -4,7 +4,7 @@
             "projectName": "Molecule SVG Parser",
             "languages": "C, Python, JavaScript, SQLite, HTML/CSS",
             "description": "A full-stack application that can upload, convert, and view CIF files as SVG images. Molecule images can be rotated on the webpage and there is a small database inside the application that can store the molecules, elements, bonds, and atoms.",
-            "github": "https://github.com/oliviabiancucci/"
+            "github": "https://github.com/oliviabiancucci/Molecule-SVG-Parser"
         },
         {
             "projectName": "UDP Messenger",
@@ -22,7 +22,7 @@
             "projectName": "Virtual Machines on the Cloud",
             "languages": "Python",
             "description": "A script that automates the creation and deployment of virtual machines on Azure and GCP using inputted configuration files and CLI.",
-            "github": "https://github.com/oliviabiancucci/"
+            "github": "https://github.com/oliviabiancucci/Virtual-Machines-on-the-Cloud"
         },
         {
             "projectName": "Credit Card Database",
