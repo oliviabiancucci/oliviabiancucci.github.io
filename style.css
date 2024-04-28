@@ -256,8 +256,10 @@ p {
     grid-row-gap: 48px;
     grid-template-rows: auto;
     grid-template-columns: .75fr .75fr;
+    align-items: center;
+    justify-content: center;
     padding-top: 2vh;
-    padding-bottom: 2vh
+    padding-bottom: 2vh;
 }
 
 .hero-content {
@@ -370,6 +372,10 @@ img {
     padding-top: 3px;
     padding-bottom: 0;
     display: flex
+}
+
+.padding {
+    padding: 20px;
 }
 
 .rounded-image {
