@@ -1,3 +1,5 @@
+
+
 a {
     background-color: transparent;
     color: #fff;
@@ -315,31 +317,13 @@ img {
     background-clip: text
 }
 
+.menu-button {
+    display: none;
+}
+
 .my-image {
     width: 500px;
     height: auto;
-}
-
-.navbar-controls {
-    color: #fff;
-    display: flex
-}
-
-.navbar-row {
-    color: #fff;
-    align-items: center;
-    margin-top: 0;
-    font-size: 15px;
-    display: flex;
-}
-
-.navbar-wrapper {
-    z-index: 5;
-    position: relative
-}
-
-.navbar-right {
-    margin-left: auto;
 }
 
 .panel {
@@ -361,28 +345,6 @@ img {
     font-size: 24px;
     display: none;
     position: relative
-}
-
-.nav-link {
-    opacity: .8;
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
-    font-size: 16px;
-    font-weight: 600;
-    transition: opacity .2s
-}
-
-.nav-link:hover {
-    opacity: 3;
-}
-
-.nav-menu {
-    align-items: left;
-    padding-top: 3px;
-    padding-bottom: 0;
-    display: flex
 }
 
 .padding {

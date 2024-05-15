@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYGHH0L7KD"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-XYGHH0L7KD');
-	</script>
-
-    <link rel ="stylesheet" href="styles/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYGHH0L7KD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XYGHH0L7KD');
+    </script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/navStyle.css">
 </head>
-<nav>
-	<div class="navbar-wrapper">
-		<div class="container">
-			<div class="navbar-row">
-			<h1><a href="index.html">Olivia Biancucci</a></h1>
-				<div class="navbar-right">
-					<div class="div-block">
-						<nav role="navigation" class="nav-menu w-nav-menu">
-							<a href="/projects.html" class="nav-link w-nav-link" style="color:#fff">Projects</a>
-							<a href="/courses.html" class="nav-link w-nav-link" style="color:#fff">Courses</a>
-							<a href="/experience.html" class="nav-link w-nav-link" style="color:#fff">Work Experience</a>
-							<a href="/contact.html" class="nav-link w-nav-link" style="color:#fff">Contact</a>
-						</nav>
-					</div>
-					<div class="navbar-controls">
-						<div class="menu-button w-nav-button"><img
-								src="https://assets-global.website-files.com/5f2c87246b17fcf662282594/5f2c87244e4a48567ab25c80_icon-menu.svg"
-								alt="" /></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</nav>
+<body>
+    <nav>
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar-row">
+                    <h1><a href="index.html">Olivia Biancucci</a></h1>
+                    <div class="navbar-right">
+                        <div class="div-block">
+                            <nav role="navigation" class="nav-menu w-nav-menu">
+                                <a href="/projects.html" class="nav-link w-nav-link" style="color:#fff">Projects</a>
+                                <a href="/courses.html" class="nav-link w-nav-link" style="color:#fff">Courses</a>
+                                <a href="/experience.html" class="nav-link w-nav-link" style="color:#fff">Work Experience</a>
+                                <a href="/contact.html" class="nav-link w-nav-link" style="color:#fff">Contact</a>
+                            </nav>
+                        </div>
+                        <div class="navbar-controls">
+                            <div class="menu-button w-nav-button" onclick="toggleMenu()">
+                                <img src="https://assets-global.website-files.com/5f2c87246b17fcf662282594/5f2c87244e4a48567ab25c80_icon-menu.svg" alt="Menu" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="menu-container">
+        <div class="side-menu">
+            <a href="/projects.html" class="menu-item">Projects</a>
+            <a href="/courses.html" class="menu-item">Courses</a>
+            <a href="/experience.html" class="menu-item">Work Experience</a>
+            <a href="/contact.html" class="menu-item">Contact</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -21,3 +21,9 @@ function loadNavbar() {
 }
 
 window.onload = loadNavbar;
+
+function toggleMenu() {
+    var menuContainer = document.querySelector('.menu-container');
+    menuContainer.style.left = (menuContainer.style.left === '0px') ? '-400px' : '0px';
+}
+
