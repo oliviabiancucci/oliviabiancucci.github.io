@@ -93,6 +93,7 @@ body {
 .courseContainer {
     padding-left: 2vw;
     padding-right: 2vw;
+    margin: 12px;
 }
 
 .courseText li {
