@@ -7,6 +7,18 @@
             "github": "https://github.com/oliviabiancucci/Molecule-SVG-Parser"
         },
         {
+            "projectName": "Foodr",
+            "languages": "JavaScript (React Native)",
+            "description": "A recipe application where users can swipe through and save recipes to their cookbook. Uses an API to retrieve recipes and contains a weekly meal planner.",
+            "github": "https://github.com/oliviabiancucci/Foodr_App"
+        },
+        {
+            "projectName": "Virtual Machines on the Cloud",
+            "languages": "Python",
+            "description": "A script that automates the creation and deployment of virtual machines on Azure and GCP using inputted configuration files and CLI.",
+            "github": "https://github.com/oliviabiancucci/Virtual-Machines-on-the-Cloud"
+        },
+        {
             "projectName": "UDP Messenger",
             "languages": "C",
             "description": "A sender and receiver capable of sending and receiving messages over unconnected UDP.",
@@ -17,12 +29,6 @@
             "languages": "Python, JavaScript, HTML/CSS",
             "description": "A text-based website that runs on a Flask server and scrapes and displays content from other sites at the user’s selection.",
             "github": "https://github.com/oliviabiancucci/"
-        },
-        {
-            "projectName": "Virtual Machines on the Cloud",
-            "languages": "Python",
-            "description": "A script that automates the creation and deployment of virtual machines on Azure and GCP using inputted configuration files and CLI.",
-            "github": "https://github.com/oliviabiancucci/Virtual-Machines-on-the-Cloud"
         },
         {
             "projectName": "Credit Card Database",

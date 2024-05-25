@@ -386,6 +386,10 @@ img {
     background-color: #0c0c3600;
 }
 
+.space-around {
+    margin: 24px
+}
+
 .space-bottom {
     margin-bottom: 24px
 }
