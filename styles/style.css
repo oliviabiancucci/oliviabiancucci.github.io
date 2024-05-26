@@ -1,3 +1,4 @@
+
 a {
     background-color: transparent;
     color: #fff;
@@ -164,6 +165,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 .grid-thirds {
@@ -447,4 +454,18 @@ strong {
     color: #fff;
     float: right;
     position: relative
+}
+
+@media (max-width: 768px) {
+    .hero-1-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .hero-1-grid img {
+        justify-self: center;
+        width: 100%;
+        max-width: 400px;
+    }
 }
